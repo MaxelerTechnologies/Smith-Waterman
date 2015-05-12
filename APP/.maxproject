@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maxCompilerManager>
+<enginePart internalEngineSubproject="SmithWaterman_EngineCode" isSrcBin="false" isUseDefaultSelected="false" outputLocation="/SmithWaterman_EngineCode/bin" projectName="SmithWaterman"/>
+<cpuPart internalCpuSubproject="SmithWaterman_CPUCode"/>
+<watchedFiles/>
+</maxCompilerManager>

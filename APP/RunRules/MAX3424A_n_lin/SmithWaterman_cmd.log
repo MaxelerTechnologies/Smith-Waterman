@@ -1,0 +1,161 @@
+Apache Ant version 1.6.0 compiled on December 18 2003
+Buildfile: SmithWaterman.xml
+Detected Java version: 1.4 in: /network-raid/opt/jdk1.6.0_02/jre
+Detected OS: Linux
+parsing buildfile /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/SmithWaterman.xml with URI = file:///home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/SmithWaterman.xml
+Project base dir set to: /home/imilankovic/SmithWaterman_1_3/src/maxlib/EngineCode
+ [property] Loading Environment env.
+Property ${-*-command-variables-*-} has not been set
+Property ${env.MAXCOMPILERJCP} has not been set
+Build sequence for target `run' is [build, run]
+Complete build sequence is [build, run, help, runresult, clean, all, jar, ]
+
+build:
+      [ant] calling target [default] in build file /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/SmithWaterman_Build.xml
+parsing buildfile /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/SmithWaterman_Build.xml with URI = file:///home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/SmithWaterman_Build.xml
+Project base dir set to: /home/imilankovic/SmithWaterman_1_3/src/maxlib/EngineCode
+ [property] Loading Environment env.
+Property ${-*-command-variables-*-} has not been set
+Property ${env.MAXCOMPILERJCP} has not been set
+      [ant] Entering /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/SmithWaterman_Build.xml...
+Build sequence for target `all' is [clean, build, all]
+Complete build sequence is [clean, build, all, ]
+
+clean:
+   [delete] Deleting directory /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/dist
+   [delete] Deleting /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/dist/bin/com/maxeler/publicdemos/smithwaterman/DataStream.class
+   [delete] Deleting /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/dist/bin/com/maxeler/publicdemos/smithwaterman/SmithBuilder.class
+   [delete] Deleting /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/dist/bin/com/maxeler/publicdemos/smithwaterman/SmithKernel.class
+   [delete] Deleting /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/dist/bin/com/maxeler/publicdemos/smithwaterman/SmithKernel$Control.class
+   [delete] Deleting /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/dist/bin/com/maxeler/publicdemos/smithwaterman/SmithParameters.class
+   [delete] Deleting directory /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/dist/bin/com/maxeler/publicdemos/smithwaterman
+   [delete] Deleting directory /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/dist/bin/com/maxeler/publicdemos
+   [delete] Deleting directory /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/dist/bin/com/maxeler
+   [delete] Deleting directory /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/dist/bin/com
+   [delete] Deleting directory /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/dist/bin
+   [delete] Deleting directory /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/dist
+
+build:
+    [mkdir] Created dir: /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/dist
+    [mkdir] Created dir: /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/dist/bin
+
+
+[maxjcompiler] Compiling to folder /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/dist/bin
+
+[maxjcompiler] Compiling files and folders:
+[maxjcompiler] /home/imilankovic/SmithWaterman_1_3/src/maxlib/EngineCode/src
+
+[maxjcompiler] Compiler options:
+[maxjcompiler] -noExit
+[maxjcompiler] -classpath
+[maxjcompiler] /network-raid/opt/maxcompiler-2015.1-post-ikon-merge/lib/MaxCompiler.jar:/network-raid/opt/maxq2/maxq2-latest/maxq2.jar:/network-raid/opt/maxq/maxq-ctl.jar:/network-raid/opt/antlr-3.3/antlr-3.3-complete.jar
+[maxjcompiler] -d
+[maxjcompiler] /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/dist/bin
+
+all:
+      [ant] Exiting /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/SmithWaterman_Build.xml.
+
+run:
+     [java] Executing '/network-raid/opt/jdk1.6.0_02/jre/bin/java' with arguments:
+     [java] '-Xmx8192m'
+     [java] '-classpath'
+     [java] '/network-raid/opt/maxq/maxq-ctl.jar:/home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/MAX3424A_n_lin/dist/bin:/network-raid/opt/maxcompiler-2015.1-post-ikon-merge/lib/MaxCompiler.jar:/network-raid/opt/maxq2/maxq2-latest/maxq2.jar:/network-raid/opt/antlr-3.3/antlr-3.3-complete.jar'
+     [java] 'com.maxeler.publicdemos.smithwaterman.SmithBuilder'
+     [java] 
+     [java] The ' characters around the executable and arguments are
+     [java] not part of the command.
+     [java] Setting environment variable: MAXSOURCEDIRS=src
+     [java] Thu 14:57: MaxCompiler version: 2014.2a
+     [java] Thu 14:57: Build "SmithWaterman" start time: Thu May 07 14:57:30 BST 2015
+     [java] Thu 14:57: Main build process running as user imilankovic on host altocumulus02.cluster.maxeler.com
+     [java] Thu 14:57: Build location: /home/imilankovic/builds/07-05-15/SmithWaterman_DFE_n_lin_512PE_150MHz_VECTIS_DFE_100PF
+     [java] Thu 14:57: Detailed build log available in "_build.log"
+     [java] Thu 14:57: Instantiating manager
+     [java] Thu 14:57: Instantiating kernel "SmithKernel"
+     [java] Thu 14:57: 
+     [java] Thu 14:57: ENGINE BUILD PARAMETERS
+     [java] Thu 14:57: 	        Build name: SmithWaterman_DFE_n_lin_512PE_150MHz_VECTIS_DFE_100PF
+     [java] Thu 14:57: 	          DFEModel: VECTIS                                               
+     [java] Thu 14:57: 	       maxFileName: SmithWaterman                                        
+     [java] Thu 14:57: 	            target: DFE                                                  
+     [java] Thu 14:57: 	        enableMPCX: false                                                
+     [java] Thu 14:57: 	       MPPRStartCT: 1                                                    
+     [java] Thu 14:57: 	         MPPREndCT: 20                                                   
+     [java] Thu 14:57: 	       MPPRThreads: 1                                                    
+     [java] Thu 14:57: 	MPPRRetryThreshold: 0                                                    
+     [java] Thu 14:57: 	               tag:                                                      
+     [java] Thu 14:57: 	        tableWidth: 24                                                   
+     [java] Thu 14:57: 	        loopLength: 0                                                    
+     [java] Thu 14:57: 	             numPE: 512                                                  
+     [java] Thu 14:57: 	        simulation: false                                                
+     [java] Thu 14:57: 	              lmem: true                                                 
+     [java] Thu 14:57: 	               dna: true                                                 
+     [java] Thu 14:57: 	            linear: true                                                 
+     [java] Thu 14:57: 	      useDnaMatrix: true                                                 
+     [java] Thu 14:57: 	             match: 5                                                    
+     [java] Thu 14:57: 	          mismatch: -4                                                   
+     [java] Thu 14:57: 	      maxVariation: 5                                                    
+     [java] Thu 14:57: 	         frequency: 150                                                  
+     [java] Thu 14:57: 	  pipeliningFactor: 1.0                                                  
+     [java] Thu 14:57: Compiling manager (Configurable)
+     [java] Thu 14:57: 
+     [java] Thu 14:57: Compiling kernel "SmithKernel"
+     [java] Thu 14:57: WARNING: Warning (UNCONNECTED_DESIGN_ELEMENT):
+     [java] Thu 14:57: WARNING: Unconnected elements in design 'SmithKernel'
+     [java] Thu 14:57: WARNING: details in : /home/imilankovic/builds/07-05-15/SmithWaterman_DFE_n_lin_512PE_150MHz_VECTIS_DFE_100PF/scratch/SmithKernel_graph_warnings.txt
+     [java] Thu 15:00: Generating input files (VHDL, netlists, MegaWizard/CoreGen)
+     [java] Thu 15:02: Running back-end  build (12 phases)
+     [java] Thu 15:02: (1/12) - Prepare MaxFile Data (GenerateMaxFileDataFile)
+     [java] Thu 15:02: (2/12) - Synthesize DFE Modules (XST)
+     [java] Thu 15:26: (3/12) - Link DFE Modules (NGCBuild)
+     [java] Thu 15:26: (4/12) - Prepare for Resource Analysis (EDIF2MxruBuildPass)
+     [java] Thu 15:28: (5/12) - Generate Preliminary Annotated Source Code (PreliminaryResourceAnnotationBuildPass)
+     [java] Thu 15:28: (6/12) - Report Resource Usage (XilinxPreliminaryResourceSummary)
+     [java] Thu 15:28: 
+     [java] Thu 15:28: PRELIMINARY RESOURCE USAGE
+     [java] Thu 15:28: Logic utilization:     223387 / 297600 (75.06%)
+     [java] Thu 15:28:   LUTs:                122485 / 297600 (41.16%)
+     [java] Thu 15:28:   Primary FFs:         188253 / 297600 (63.26%)
+     [java] Thu 15:28: Multipliers (25x18):        0 / 2016   (0.00%)
+     [java] Thu 15:28:   DSP blocks:               0 / 2016   (0.00%)
+     [java] Thu 15:28: Block memory (BRAM18):    262 / 2128   (12.31%)
+     [java] Thu 15:28: 
+     [java] Thu 15:28: About to start chip vendor Map/Place/Route toolflow. This will take some time.
+     [java] Thu 15:28: For this compile, we estimate this process may take longer than 1 hour.
+     [java] Thu 15:28: We recommend running in simulation to verify correctness before building a DFE configuration.
+     [java] Thu 15:28: 
+     [java] Thu 15:28: (7/12) - Prepare for Placement (NGDBuild)
+     [java] Thu 15:34: (8/12) - Place and Route DFE (XilinxMPPR)
+     [java] Thu 15:34: Executing MPPR with 20 cost tables and 1 thread.
+     [java] Thu 15:34: MPPR: Starting 20 cost tables
+     [java] Thu 23:26: MPPR: Cost table 1 met timing with score 0 (best score 0)
+     [java] Thu 23:26: (9/12) - Prepare for Resource Analysis (XDLBuild)
+     [java] Thu 23:28: (10/12) - Generate Resource Report (XilinxResourceUsageBuildPass)
+     [java] Thu 23:28: (11/12) - Generate Annotated Source Code (XilinxResourceAnnotationBuildPass)
+     [java] Thu 23:28: (12/12) - Generate MaxFile (GenerateMaxFileXilinx)
+     [java] Thu 23:39: 
+     [java] Thu 23:39: FINAL RESOURCE USAGE
+     [java] Thu 23:39: Logic utilization:     153932 / 297600 (51.72%)
+     [java] Thu 23:39:   LUTs:                120580 / 297600 (40.52%)
+     [java] Thu 23:39:   Primary FFs:         130898 / 297600 (43.98%)
+     [java] Thu 23:39:   Secondary FFs:        54879 / 297600 (18.44%)
+     [java] Thu 23:39: Multipliers (25x18):        0 / 2016   (0.00%)
+     [java] Thu 23:39:   DSP blocks:               0 / 2016   (0.00%)
+     [java] Thu 23:39: Block memory (BRAM18):    263 / 2128   (12.36%)
+     [java] Thu 23:39: 
+     [java] Thu 23:39: MaxFile: /home/imilankovic/builds/07-05-15/SmithWaterman_DFE_n_lin_512PE_150MHz_VECTIS_DFE_100PF/results/SmithWaterman.max (MD5Sum: 5ca1c15ea2402477e388829da6cf34de)
+     [java] Thu 23:39: Build completed: Thu May 07 23:39:28 BST 2015 (took 8 hours, 41 mins, 57 secs)
+
+
+     [exec] Current OS is Linux
+     [exec] Executing '/network-raid/opt/maxcompiler-2015.1-post-ikon-merge/lib/MaxIDE/copyBuildResults.sh' with arguments:
+     [exec] '-p'
+     [exec] 'MAX3424A_n_lin'
+     [exec] 
+     [exec] The ' characters around the executable and arguments are
+     [exec] not part of the command.
+
+
+
+BUILD SUCCESSFUL
+Total time: 522 minutes 36 seconds

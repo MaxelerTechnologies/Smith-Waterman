@@ -1,0 +1,161 @@
+Apache Ant version 1.6.0 compiled on December 18 2003
+Buildfile: SmithWaterman.xml
+Detected Java version: 1.4 in: /network-raid/opt/jdk1.6.0_02/jre
+Detected OS: Linux
+parsing buildfile /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/SmithWaterman.xml with URI = file:///home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/SmithWaterman.xml
+Project base dir set to: /home/imilankovic/SmithWaterman_1_3/src/maxlib/EngineCode
+ [property] Loading Environment env.
+Property ${-*-command-variables-*-} has not been set
+Property ${env.MAXCOMPILERJCP} has not been set
+Build sequence for target `run' is [build, run]
+Complete build sequence is [build, run, help, runresult, clean, all, jar, ]
+
+build:
+      [ant] calling target [default] in build file /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/SmithWaterman_Build.xml
+parsing buildfile /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/SmithWaterman_Build.xml with URI = file:///home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/SmithWaterman_Build.xml
+Project base dir set to: /home/imilankovic/SmithWaterman_1_3/src/maxlib/EngineCode
+ [property] Loading Environment env.
+Property ${-*-command-variables-*-} has not been set
+Property ${env.MAXCOMPILERJCP} has not been set
+      [ant] Entering /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/SmithWaterman_Build.xml...
+Build sequence for target `all' is [clean, build, all]
+Complete build sequence is [clean, build, all, ]
+
+clean:
+   [delete] Deleting directory /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/dist
+   [delete] Deleting /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/dist/bin/com/maxeler/publicdemos/smithwaterman/DataStream.class
+   [delete] Deleting /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/dist/bin/com/maxeler/publicdemos/smithwaterman/SmithKernel.class
+   [delete] Deleting /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/dist/bin/com/maxeler/publicdemos/smithwaterman/SmithKernel$Control.class
+   [delete] Deleting /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/dist/bin/com/maxeler/publicdemos/smithwaterman/SmithBuilder.class
+   [delete] Deleting /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/dist/bin/com/maxeler/publicdemos/smithwaterman/SmithParameters.class
+   [delete] Deleting directory /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/dist/bin/com/maxeler/publicdemos/smithwaterman
+   [delete] Deleting directory /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/dist/bin/com/maxeler/publicdemos
+   [delete] Deleting directory /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/dist/bin/com/maxeler
+   [delete] Deleting directory /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/dist/bin/com
+   [delete] Deleting directory /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/dist/bin
+   [delete] Deleting directory /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/dist
+
+build:
+    [mkdir] Created dir: /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/dist
+    [mkdir] Created dir: /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/dist/bin
+
+
+[maxjcompiler] Compiling to folder /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/dist/bin
+
+[maxjcompiler] Compiling files and folders:
+[maxjcompiler] /home/imilankovic/SmithWaterman_1_3/src/maxlib/EngineCode/src
+
+[maxjcompiler] Compiler options:
+[maxjcompiler] -noExit
+[maxjcompiler] -classpath
+[maxjcompiler] /network-raid/opt/maxcompiler-2015.1-post-ikon-merge/lib/MaxCompiler.jar:/network-raid/opt/maxq2/maxq2-latest/maxq2.jar:/network-raid/opt/maxq/maxq-ctl.jar:/network-raid/opt/antlr-3.3/antlr-3.3-complete.jar
+[maxjcompiler] -d
+[maxjcompiler] /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/dist/bin
+
+all:
+      [ant] Exiting /home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/SmithWaterman_Build.xml.
+
+run:
+     [java] Executing '/network-raid/opt/jdk1.6.0_02/jre/bin/java' with arguments:
+     [java] '-Xmx8192m'
+     [java] '-classpath'
+     [java] '/network-raid/opt/maxq/maxq-ctl.jar:/home/imilankovic/SmithWaterman_1_3/src/maxlib/RunRules/Coria_n_lin/dist/bin:/network-raid/opt/maxcompiler-2015.1-post-ikon-merge/lib/MaxCompiler.jar:/network-raid/opt/maxq2/maxq2-latest/maxq2.jar:/network-raid/opt/antlr-3.3/antlr-3.3-complete.jar'
+     [java] 'com.maxeler.publicdemos.smithwaterman.SmithBuilder'
+     [java] 
+     [java] The ' characters around the executable and arguments are
+     [java] not part of the command.
+     [java] Setting environment variable: MAXSOURCEDIRS=src
+     [java] Thu 14:58: MaxCompiler version: 2014.2a
+     [java] Thu 14:58: Build "SmithWaterman" start time: Thu May 07 14:58:42 BST 2015
+     [java] Thu 14:58: Main build process running as user imilankovic on host altocumulus02.cluster.maxeler.com
+     [java] Thu 14:58: Build location: /home/imilankovic/builds/07-05-15/SmithWaterman_DFE_n_lin_512PE_150MHz_CORIA_DFE_100PF
+     [java] Thu 14:58: Detailed build log available in "_build.log"
+     [java] Thu 14:58: Instantiating manager
+     [java] Thu 14:58: Instantiating kernel "SmithKernel"
+     [java] Thu 14:58: 
+     [java] Thu 14:58: ENGINE BUILD PARAMETERS
+     [java] Thu 14:58: 	        Build name: SmithWaterman_DFE_n_lin_512PE_150MHz_CORIA_DFE_100PF
+     [java] Thu 14:58: 	          DFEModel: CORIA                                               
+     [java] Thu 14:58: 	       maxFileName: SmithWaterman                                       
+     [java] Thu 14:58: 	            target: DFE                                                 
+     [java] Thu 14:58: 	        enableMPCX: false                                               
+     [java] Thu 14:58: 	       MPPRStartCT: 1                                                   
+     [java] Thu 14:58: 	         MPPREndCT: 20                                                  
+     [java] Thu 14:58: 	       MPPRThreads: 1                                                   
+     [java] Thu 14:58: 	MPPRRetryThreshold: 0                                                   
+     [java] Thu 14:58: 	               tag:                                                     
+     [java] Thu 14:58: 	        tableWidth: 24                                                  
+     [java] Thu 14:58: 	        loopLength: 0                                                   
+     [java] Thu 14:58: 	             numPE: 512                                                 
+     [java] Thu 14:58: 	        simulation: false                                               
+     [java] Thu 14:58: 	              lmem: true                                                
+     [java] Thu 14:58: 	               dna: true                                                
+     [java] Thu 14:58: 	            linear: true                                                
+     [java] Thu 14:58: 	      useDnaMatrix: true                                                
+     [java] Thu 14:58: 	             match: 5                                                   
+     [java] Thu 14:58: 	          mismatch: -4                                                  
+     [java] Thu 14:58: 	      maxVariation: 5                                                   
+     [java] Thu 14:58: 	         frequency: 150                                                 
+     [java] Thu 14:58: 	  pipeliningFactor: 1.0                                                 
+     [java] Thu 14:58: Compiling manager (Configurable)
+     [java] Thu 14:58: 
+     [java] Thu 14:58: Compiling kernel "SmithKernel"
+     [java] Thu 14:58: WARNING: Warning (UNCONNECTED_DESIGN_ELEMENT):
+     [java] Thu 14:58: WARNING: Unconnected elements in design 'SmithKernel'
+     [java] Thu 14:58: WARNING: details in : /home/imilankovic/builds/07-05-15/SmithWaterman_DFE_n_lin_512PE_150MHz_CORIA_DFE_100PF/scratch/SmithKernel_graph_warnings.txt
+     [java] Thu 15:01: Generating input files (VHDL, netlists, MegaWizard/CoreGen)
+     [java] Thu 15:02: Running back-end  build (16 phases)
+     [java] Thu 15:02: (1/16) - Prepare MaxFile Data (GenerateMaxFileDataFile)
+     [java] Thu 15:02: (2/16) - Prepare for Placement (QuartusMap)
+     [java] Thu 15:52: (3/16) - Generate Incremental Netlist (QuartusCdb)
+     [java] Thu 15:54: (4/16) - Generate Resource Report (AlteraResourceUsageBuildPass)
+     [java] Thu 15:55: (5/16) - Generate Annotated Source Code (AlteraResourceAnnotationBuildPass)
+     [java] Thu 15:55: (6/16) - Analyse Resource Usage (AlteraResourceCounterPass)
+     [java] Thu 15:55: 
+     [java] Thu 15:55: About to start chip vendor Map/Place/Route toolflow. This will take some time.
+     [java] Thu 15:55: For this compile, we estimate this process may take up to 1 hour.
+     [java] Thu 15:55: We recommend running in simulation to verify correctness before building hardware.
+     [java] Thu 15:55: 
+     [java] Thu 15:55: PRELIMINARY RESOURCE USAGE
+     [java] Thu 15:55: Logic utilization:     112858 / 172600   (65.39%)
+     [java] Thu 15:55: Multipliers (18x18):        0 / 3180     (0.00%)
+     [java] Thu 15:55: Block memory (bits):  5564859 / 41246720 (13.49%)
+     [java] Thu 15:55: 
+     [java] Thu 15:55: (7/16) - Place and Route DFE (AlteraMPPR)
+     [java] Thu 15:55: Executing MPPR with 20 cost tables and 1 thread.
+     [java] Thu 15:55: MPPR: Starting 20 cost tables
+     [java] Thu 17:42: MPPR: Cost table 1 met timing with score 0 (best score 0)
+     [java] Thu 17:42: (8/16) - Generate Configuration (QuartusAsm)
+     [java] Thu 17:47: (9/16) - Convert Programming File (QuartusCpf)
+     [java] Thu 17:47: (10/16) - Update Checksum (UpdateChecksumBuildPass)
+     [java] Thu 17:47: (11/16) - Generate Incremental Netlist (QuartusCdb)
+     [java] Thu 17:50: (12/16) - Generate Configuration (QuartusAsm)
+     [java] Thu 17:53: (13/16) - Convert Programming File (QuartusCpf)
+     [java] Thu 17:54: (14/16) - Generate Resource Report (AlteraResourceUsageBuildPass)
+     [java] Thu 17:54: (15/16) - Generate Annotated Source Code (AlteraResourceAnnotationBuildPass)
+     [java] Thu 17:54: (16/16) - Generate MaxFile (GenerateMaxFileAltera)
+     [java] Thu 17:55: 
+     [java] Thu 17:55: FINAL RESOURCE USAGE
+     [java] Thu 17:55: Logic utilization:    88897 / 172600 (51.50%)
+     [java] Thu 17:55:   Primary FFs:       178658 / 345200 (51.75%)
+     [java] Thu 17:55:   Secondary FFs:      21070 / 345200 (6.10%)
+     [java] Thu 17:55: Multipliers (18x18):      0 / 3180   (0.00%)
+     [java] Thu 17:55:   DSP blocks:             0 / 1590   (0.00%)
+     [java] Thu 17:55: Block memory (M20K):   1774 / 2014   (88.08%)
+     [java] Thu 17:55: 
+     [java] Thu 17:55: MaxFile: /home/imilankovic/builds/07-05-15/SmithWaterman_DFE_n_lin_512PE_150MHz_CORIA_DFE_100PF/results/SmithWaterman.max (MD5Sum: 3cde5016f2e89c66294eba0ac9eecf8c)
+     [java] Thu 17:55: Build completed: Thu May 07 17:55:07 BST 2015 (took 2 hours, 56 mins, 25 secs)
+
+
+     [exec] Current OS is Linux
+     [exec] Executing '/network-raid/opt/maxcompiler-2015.1-post-ikon-merge/lib/MaxIDE/copyBuildResults.sh' with arguments:
+     [exec] '-p'
+     [exec] 'Coria_n_lin'
+     [exec] 
+     [exec] The ' characters around the executable and arguments are
+     [exec] not part of the command.
+
+
+
+BUILD SUCCESSFUL
+Total time: 177 minutes 4 seconds
