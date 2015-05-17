@@ -1,9 +1,0 @@
-#!/bin/sh
-
-MAXAPPPKG=com.maxeler.publicdemos.smithwaterman.SmithBuilder
-MAXJVMMEM=8192
-MAXCOMPILERJCP=$MAXCOMPILERDIR/lib/MaxCompiler.jar
-MAXAPPJCP=bin
-MAXSOURCEDIRS=src
-export MAXMPPRMAILTO=`whoami`@maxeler.com
-

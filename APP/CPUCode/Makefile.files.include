@@ -1,5 +1,5 @@
 #
 # This file is managed by MaxIDE. Do NOT change.
 #
-HEADERS:= maxlib.h 
-SOURCES:= maxlib.c 
+HEADERS:= common/include/controlpipe.h common/include/io.h common/include/timing.h maxlib.h 
+SOURCES:= common/src/controlpipe.c common/src/io.c common/src/timing.c maxlib.c 
