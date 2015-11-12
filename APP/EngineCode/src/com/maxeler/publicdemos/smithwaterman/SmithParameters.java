@@ -11,7 +11,6 @@
 package com.maxeler.publicdemos.smithwaterman;
 
 import com.maxeler.maxcompiler.v2.build.EngineParameters;
-import com.maxeler.maxcompiler.v2.managers.MAX3BoardModel;
 
 
 public class SmithParameters extends EngineParameters {
@@ -48,7 +47,6 @@ public class SmithParameters extends EngineParameters {
 		@Override
 		protected void declarations() {
 			declareParam("tag"				, DataType.STRING			, "");
-			declareParam("DFEModel"			, DataType.MAXBOARDMODEL	, MAX3BoardModel.MAX3424A);
 			declareParam("target"			, Target.class				, Target.DFE);
 			declareParam("maxFileName"		, DataType.STRING			, "SmithWaterman");
 
