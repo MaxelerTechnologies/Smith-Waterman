@@ -1,0 +1,29 @@
+#
+# Smith-Waterman
+#
+# Required variables:
+#  - MAXCOMPILER_SIM_IMAGE: image with MaxCompiler and MaxCompiler Simulator
+#  - MAXCOMPILER_DFE_IMAGE: image with MaxCompiler and Quartus II
+#
+
+stages:
+- make-sim
+- make-dfe
+
+
+make-sim-Smith-Waterman:
+  image: $MAXCOMPILER_SIM_IMAGE
+  script:
+  - make -C APP/CPUCode RUNRULE='Simulation' distclean build
+  - make -C APP/CPUCode RUNRULE='Simulation' runsim
+  stage: make-sim
+  tags:
+  - maxcompiler-sim
+
+make-dfe-Smith-Waterman:
+  image: $MAXCOMPILER_DFE_IMAGE
+  script:
+  - make -C APP/CPUCode RUNRULE='Maia' distclean build
+  stage: make-dfe
+  tags:
+  - maxcompiler-dfe
