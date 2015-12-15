@@ -42,3 +42,11 @@ make-Isca-Smith-Waterman:
   stage: make-dfe
   tags:
   - maxcompiler-dfe
+
+make-Galava-Smith-Waterman:
+  image: $MAXCOMPILER_DFE_IMAGE
+  script:
+  - make -C APP/CPUCode RUNRULE='Galava'
+  stage: make-dfe
+  tags:
+  - maxcompiler-dfe
