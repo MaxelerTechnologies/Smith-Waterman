@@ -34,3 +34,11 @@ make-Coria-Smith-Waterman:
   stage: make-dfe
   tags:
   - maxcompiler-dfe
+
+make-Isca-Smith-Waterman:
+  image: $MAXCOMPILER_DFE_IMAGE
+  script:
+  - make -C APP/CPUCode RUNRULE='Isca'
+  stage: make-dfe
+  tags:
+  - maxcompiler-dfe
