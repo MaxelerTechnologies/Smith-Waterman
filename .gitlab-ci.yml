@@ -14,8 +14,7 @@ stages:
 make-sim-Smith-Waterman:
   image: $MAXCOMPILER_SIM_IMAGE
   script:
-  - make -C APP/CPUCode RUNRULE='Simulation' distclean build
-  - make -C APP/CPUCode RUNRULE='Simulation' runsim
+  - make -C APP/CPUCode RUNRULE='Simulation'
   stage: make-sim
   tags:
   - maxcompiler-sim
@@ -23,7 +22,7 @@ make-sim-Smith-Waterman:
 make-dfe-Smith-Waterman:
   image: $MAXCOMPILER_DFE_IMAGE
   script:
-  - make -C APP/CPUCode RUNRULE='Maia' distclean build
+  - make -C APP/CPUCode RUNRULE='Maia'
   stage: make-dfe
   tags:
   - maxcompiler-dfe
