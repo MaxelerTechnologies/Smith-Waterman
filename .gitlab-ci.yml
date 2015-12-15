@@ -19,10 +19,18 @@ make-sim-Smith-Waterman:
   tags:
   - maxcompiler-sim
 
-make-dfe-Smith-Waterman:
+make-Maia-Smith-Waterman:
   image: $MAXCOMPILER_DFE_IMAGE
   script:
   - make -C APP/CPUCode RUNRULE='Maia'
+  stage: make-dfe
+  tags:
+  - maxcompiler-dfe
+
+make-Coria-Smith-Waterman:
+  image: $MAXCOMPILER_DFE_IMAGE
+  script:
+  - make -C APP/CPUCode RUNRULE='Coria'
   stage: make-dfe
   tags:
   - maxcompiler-dfe
