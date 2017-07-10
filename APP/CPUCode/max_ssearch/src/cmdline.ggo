@@ -1,0 +1,10 @@
+package "SmithWaterman"
+version "1.0_SLiC"
+
+option "control"      c   "Control pipe. Allows the java GUI to send control commands to the hostcode."     string  yes
+option "feedback"     f   "Parameters pipe. Allows the host code to send feedback and results to the GUI."  string  yes
+option "first_device" i   "Index of the first device."                                                      int     no
+option "num_device"   n   "Number of devices."                                                              int     no  
+option "simulation"   s   "Host simulation with a simulation maxfile."                                      flag    off
+option "engine-pattern" e "Engine pattern. Specifies the Data Flow Engine to run the maxfile."              string  no
+option "dfe"          d   "DFE to use"                                                                      string  no
