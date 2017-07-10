@@ -35,13 +35,15 @@ Ensure the environment variables below are correctly set:
 
 To compile the application, run:
 
-    make RUNRULE="<ProfileName>"
+    ./build.sh -p "<ProfileName>" -t build
 
-If would like to remove the distributed maxfiles before recompiling the application run the following command before compilation:
+Default Profile Name is `Simulation`.
 
-    make RUNRULE="<ProfileName>" distclean
+If you would like to remove the distributed maxfiles, jars and binaries before recompiling the application run the following command before compilation:
 
-## Makefile targets
+    ./build.sh -p "<ProfileName>" -t distclean
+
+## Build targets
 
 ### build  
 
@@ -54,6 +56,16 @@ Removes results of compilation from build directories
 ### distclean  
 
 Removes all results of comakempilation from build directories, including all maxfiles
+
+## Information to run
+
+In order to run application is simulation mode after compilation run:
+
+    ./run-sim.sh
+
+In order to run application on real DFE after compilation run:
+
+    ./run.sh
 
 Smith Waterman Demo on [AppGallery](http://appgallery.maxeler.com/)   
 
