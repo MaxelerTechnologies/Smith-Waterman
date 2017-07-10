@@ -31,6 +31,7 @@ License of the project.
 Ensure the environment variables below are correctly set:
   * `MAXELEROSDIR`
   * `MAXCOMPILERDIR`
+  * `JAVA_HOME`
 
 To compile the application, run:
 
