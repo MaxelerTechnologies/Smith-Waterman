@@ -12,10 +12,6 @@ binaries
 maxfiles
 # Ignore the RunRules/<RunRule>/objects folder
 objects
-# Ignore all generated files in the RunRules/<RunRule>/include
-# folder except for the Maxfiles.h
-include
-!Maxfiles.h
 # Ignore RunRules/<RunRule>/.maxcompiler-activity.be
 .maxcompiler-activity.be
 # Ignore RunRule's log files
