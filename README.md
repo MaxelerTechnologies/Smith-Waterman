@@ -12,6 +12,7 @@ The repo root directory contains the following items:
 
 - APP
 - DOCS
+- sequences
 - LICENCE.txt
 
 ### APP
@@ -21,12 +22,18 @@ Directory containing project sources.
 ### DOCS
 
 Documentation of the project.
+
+### SEQUENCES
+
+This application contains amino acids sequences from the UniRef50 database and the UniProtKB/SwissProt database.
+
+For more informations or to download the latest release, visit http://www.uniprot.org/
   
 ### LICENSE.txt
 
 License of the project.
 
-## Information to compile
+## How to compile
 
 Ensure the environment variables below are correctly set:
   * `MAXELEROSDIR`
@@ -55,11 +62,15 @@ Removes results of compilation from build directories
 
 ### distclean  
 
-Removes all results of comakempilation from build directories, including all maxfiles
+Removes all results of compilation from build directories, including all maxfiles
 
-## Information to run
+## How to run 
 
-In order to run application is simulation mode after compilation run:
+Before running application we need to download input data. In order to do that we need to run:
+
+    git lfs pull
+
+In order to run application in simulation mode after compilation run:
 
     ./run-sim.sh
 
