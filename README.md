@@ -12,6 +12,7 @@ The repo root directory contains the following items:
 
 - APP
 - DOCS
+- sequences
 - LICENCE.txt
 
 ### APP
@@ -21,26 +22,35 @@ Directory containing project sources.
 ### DOCS
 
 Documentation of the project.
+
+### SEQUENCES
+
+This application contains amino acids sequences from the UniRef50 database and the UniProtKB/SwissProt database.
+
+For more informations or to download the latest release, visit http://www.uniprot.org/
   
 ### LICENSE.txt
 
 License of the project.
 
-## Information to compile
+## How to compile
 
 Ensure the environment variables below are correctly set:
   * `MAXELEROSDIR`
   * `MAXCOMPILERDIR`
+  * `JAVA_HOME`
 
 To compile the application, run:
 
-    make RUNRULE="<ProfileName>"
+    ./build.sh -p "<ProfileName>" -t build
 
-If would like to remove the distributed maxfiles before recompiling the application run the following command before compilation:
+Default Profile Name is `Simulation`.
 
-    make RUNRULE="<ProfileName>" distclean
+If you would like to remove the distributed maxfiles, jars and binaries before recompiling the application run the following command before compilation:
 
-## Makefile targets
+    ./build.sh -p "<ProfileName>" -t distclean
+
+## Build targets
 
 ### build  
 
@@ -52,7 +62,21 @@ Removes results of compilation from build directories
 
 ### distclean  
 
-Removes all results of comakempilation from build directories, including all maxfiles
+Removes all results of compilation from build directories, including all maxfiles
+
+## How to run 
+
+Before running application we need to download input data. In order to do that we need to run:
+
+    git lfs pull
+
+In order to run application in simulation mode after compilation run:
+
+    ./run-sim.sh
+
+In order to run application on real DFE after compilation run:
+
+    ./run.sh
 
 Smith Waterman Demo on [AppGallery](http://appgallery.maxeler.com/)   
 
